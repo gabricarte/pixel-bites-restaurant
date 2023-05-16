@@ -1,0 +1,66 @@
+.order-page{
+    width: 100%;
+    height: 100vh;
+}
+
+.order-page video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap-reverse;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+}
+
+.waitress{
+    display: flex;
+    align-items: flex-end;
+}
+
+.btns-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btns-container > * {
+    width: 30%;
+}
+
+.order-page input{
+    padding: 10px;
+}
+
+@media screen and (max-width: 680px) {
+    .waitress img{
+       height: 50vh;
+    }
+ 
+}
+
+@media screen and (min-width: 680px) {
+    .waitress img{
+       height: 50vh;
+    }
+ 
+}
+
+@media screen and (min-width: 768px) {
+    .waitress img{
+        height: 50vh;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .waitress img{
+        height: 80vh;
+    }
+  }

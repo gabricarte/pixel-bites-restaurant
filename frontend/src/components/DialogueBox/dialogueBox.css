@@ -1,0 +1,45 @@
+.dialogue-box {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    font-size: 1rem;
+    line-height: 1.5;
+    
+  }
+
+@media screen and (min-width: 768px) {
+    .dialogue-box {
+      width: 60%;
+      font-size: 1.1rem;
+    }
+  }
+  
+@media screen and (min-width: 1024px) {
+    .dialogue-box {
+      width: 40%;
+      font-size: 1.2rem;
+    }
+  }
+  
+.dialogue-box p {
+    font-size: 1rem;
+  }
+  
+@media screen and (min-width: 768px) {
+    .dialogue-box p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .dialogue-box p {
+      font-size: 1rem;
+    }
+  }

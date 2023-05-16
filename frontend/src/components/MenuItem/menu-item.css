@@ -1,0 +1,27 @@
+.menu-item{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 10vw;
+    max-height: 20vh;
+    font-size: 0.3em;
+}
+
+.menu-item img{
+    height: 80%;
+    object-fit:contain;
+    cursor: pointer;
+}
+.menu-item img:hover {
+    filter: brightness(70%);
+  }
+  
+
+@media screen and (max-width: 680px) {
+    .menu-item{
+        font-size: 0.2em;
+        min-width: 35vw;
+    }
+  }
+

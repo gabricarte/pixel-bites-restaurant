@@ -1,0 +1,8 @@
+.basket-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.basket-item p{
+    margin: 0;
+}

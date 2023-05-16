@@ -1,0 +1,47 @@
+.template-page{
+    width: 100%;
+    height: 100vh;
+}
+
+.template-page video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+}
+
+.waitress{
+    display: flex;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 680px) {
+    .waitress img{
+       height: 50vh;
+    }
+ 
+}
+
+@media screen and (min-width: 680px) {
+    .waitress img{
+       height: 50vh;
+    }
+ 
+}
+
+@media screen and (min-width: 768px) {
+    .waitress img{
+        height: 50vh;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .waitress img{
+        height: 80vh;
+    }
+  }
+  @media screen and (max-width: 384px) {
+    .waitress img{
+        height: 30vh;
+    }
+  }
